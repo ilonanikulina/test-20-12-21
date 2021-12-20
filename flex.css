@@ -1,0 +1,33 @@
+.flex-container {
+    background-color: black;
+    height: 200px;
+    font-size: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item:nth-child(1) {
+    background-color: cadetblue;
+}
+
+.flex-item:nth-child(2) {
+    background-color: rgb(180, 28, 28);
+}
+
+.flex-item:nth-child(3) {
+    background-color: orchid;
+}
+
+.flex-item:nth-child(4) {
+    background-color: greenyellow;
+}
+
+.flex-item:nth-child(5) {
+    background-color: blue;
+}
+.flex-item:nth-child(6) {
+    background-color: orange;
+}
+
